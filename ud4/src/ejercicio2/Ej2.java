@@ -1,7 +1,7 @@
 package ejercicio2;
 /**
  * 
- * @author Jose Antonio González Alcántara
+ * @author Jose Antonio Gonzï¿½lez Alcï¿½ntara
  * 
  * Clase de Java de la TA04-Java Basics Ejercicio2
  */
@@ -12,35 +12,46 @@ public class Ej2 {
 		//Escribe un programa Java realice lo siguiente:
 		
 		//Declaramos una variable N, A, C de tipo int
-		int n; //Las Escribo en minuscula por convención
-		int a;
-		int c;
+		int n; //Las Escribo en minuscula por convenciï¿½n
+		double a;
+		char c;
 		
 		//Les asigno un valor
-		n = 0;
-		a = 16;
-		c = 23;
+		n = 16;
+		a = 23.16666666666;
+		c = 'j';
 		
 		//Mostramos el valor por pantalla de cada variable
-		System.out.println("A continuación mostraremos el valor de las variables");
-		System.out.println("El valor de N es " + n);
-		System.out.println("El valor de N es " + a);
-		System.out.println("El valor de N es " + c);
+		System.out.println("A continuaciï¿½n mostraremos el valor de las variables");
+		System.out.println("Variable N es " + n);
+		System.out.println("Variable de A es " + a);
+		System.out.println("Variable de C es " + c);
 		
 		//Mostramos la suma de N + A
 		
 		//Declaro una valiable de resultado y sumo
-		int resultado = 0;
+		double resultado = 0;
 		resultado = n + a;
 		
 		//Lo muestro por pantalla
-		System.out.println("La suma de N + A es " + resultado);
+		System.out.println(n + " + " + a + " = " + resultado);
 		
 		//Mostramos la diferencia de N - A
 		//Almaceno la diferencia en resultado
 		resultado = a - n;
 		
-
+		//Lo mostramos por pantalla
+		System.out.println(a + " + " + n + " = " + resultado);
+		
+		//Mostramos el valor nÃºmerico correspondiente al carÃ¡cter que contiene la variable C.
+		//Almacenamos el valor del carÃ¡cter c 
+		int valorC = c;
+		
+		//mostramos por pantalla
+		System.out.println("Valor nÃºmerico correspondiente del carÃ¡cter " + c + " = " + valorC);
+		
+		
+		
 	}
 
 }

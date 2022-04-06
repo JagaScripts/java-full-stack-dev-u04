@@ -3,7 +3,7 @@ package ejercicio4;
  * 
  * @author Jose Antonio Gonz�lez Alc�ntara
  * 
- * Clase de Java de la TA04-Java Basics Ejercicio4
+ * Clase de Java de la TA04-Java Basics Ejercicio 4
  */
 
 public class Ej4 {

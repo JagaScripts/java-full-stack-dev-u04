@@ -11,8 +11,8 @@ public class Ej2 {
 	public static void main(String[] args) {
 		//Escribe un programa Java realice lo siguiente:
 		
-		//Declaramos una variable N, A, C de tipo int
-		int n; //Las Escribo en minuscula por convenci�n
+		//Declaramos una variable N tipo int, A tipo double y  C de tipo char
+		int n; //Las escribo en minuscula el nombre de las variables por convención
 		double a;
 		char c;
 		

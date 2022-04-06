@@ -30,10 +30,10 @@ public class Ej3 {
 		//A continuación mostramos por pantalla:
 		
 		//El valor de cada variable
-		System.out.println("Variable x " + x);
-		System.out.println("Variable y " + y);
-		System.out.println("Variable n " + n);
-		System.out.println("Variable m " + m);
+		System.out.println("Variable X = " + x);
+		System.out.println("Variable Y = " + y);
+		System.out.println("Variable N = " + n);
+		System.out.println("Variable M = " + m);
 		
 		//La suma de X + Y
 		int resultadoI = x + y;
@@ -75,7 +75,21 @@ public class Ej3 {
 		resultadoD = n % m;
 		System.out.println(n + " % " + m +  " = " + resultadoD);
 		
-		//TODO tres ultimas
+		//El valor de cada variable
+		//Defino una constante para multiplicadora
+		final int MULTI = 2; 
+		System.out.println("El doble de X es " + (x * MULTI));
+		System.out.println("El doble de Y es " + (y * MULTI));
+		System.out.println("El doble de N es " + (n * MULTI));
+		System.out.println("El doble de M es " + (m * MULTI));
+		
+		//La suma de todas las variables
+		System.out.println(x + " + " + y + " + " + n + " + " + m + " = " + (x + y + n + m));
+		
+		//El producto de todas las variables
+		System.out.println(x + " x " + y + " x " + n + " x " + m + " = " + (x * y * n * m));
+		
+		
 
 	}
 
